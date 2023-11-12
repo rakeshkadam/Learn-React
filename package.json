@@ -1,0 +1,34 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "Learning react from scratch",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeshkadam/Learn-React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Rakesh Kadam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakeshkadam/Learn-React/issues"
+  },
+  "homepage": "https://github.com/rakeshkadam/Learn-React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
