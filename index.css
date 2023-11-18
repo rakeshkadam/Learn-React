@@ -28,6 +28,11 @@
   list-style: none;
 }
 
+.nav-items a {
+  text-decoration: none;
+  color: black;
+}
+
 .nav-items > ul > li {
   padding: 10px;
   margin: 10px;
@@ -52,6 +57,12 @@
   background-color: #f0f0f0;
   padding: 5px;
   width: 200px;
+  min-height: 275px;
+}
+
+.res-container > a {
+  text-decoration: none;
+  color: black;
 }
 
 .res-card:hover {
@@ -80,4 +91,11 @@
   height: 350px;
   width: 200px;
   background-color: #f0f0f0;
+}
+
+/* Filters */
+.filter {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0px;
 }
